@@ -4,3 +4,10 @@
 
 /RESTAPIStartup/.vs/RESTAPIStartup/v16
 /RESTAPIStartup/obj
+/RESTAPIStartup/bin/Debug/net5.0
+/API.Server.Data/bin/Debug/net5.0
+/API.Server.Data/obj
+/API.Shared/bin/Debug/net5.0
+/API.Shared/obj
+/RESTAPIStartup/.vs/RESTAPIStartup
+/RESTAPIStartup/API.Server.csproj.user

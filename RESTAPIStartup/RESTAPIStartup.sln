@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTAPIStartup", "RESTAPIStartup.csproj", "{DB6EB249-32F2-4A89-9BC2-58FE9D81CEAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Server", "API.Server.csproj", "{DB6EB249-32F2-4A89-9BC2-58FE9D81CEAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Shared", "..\API.Shared\API.Shared.csproj", "{C9DA72CD-ACD2-4C79-B9BA-1531BA2FBA33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Server.Data", "..\API.Server.Data\API.Server.Data.csproj", "{159E2E31-45F1-464C-9136-C217A0EE642A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DB6EB249-32F2-4A89-9BC2-58FE9D81CEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB6EB249-32F2-4A89-9BC2-58FE9D81CEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB6EB249-32F2-4A89-9BC2-58FE9D81CEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9DA72CD-ACD2-4C79-B9BA-1531BA2FBA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DA72CD-ACD2-4C79-B9BA-1531BA2FBA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DA72CD-ACD2-4C79-B9BA-1531BA2FBA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DA72CD-ACD2-4C79-B9BA-1531BA2FBA33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159E2E31-45F1-464C-9136-C217A0EE642A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159E2E31-45F1-464C-9136-C217A0EE642A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159E2E31-45F1-464C-9136-C217A0EE642A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159E2E31-45F1-464C-9136-C217A0EE642A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
