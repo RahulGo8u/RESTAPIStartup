@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\API.Server.Data\API.Server.Data.csproj" />
+    <ProjectReference Include="..\API.Shared\API.Shared.csproj" />
   </ItemGroup>
 
 </Project>

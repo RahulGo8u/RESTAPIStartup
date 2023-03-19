@@ -1,4 +1,4 @@
-﻿using API.Server.Data.Model;
+﻿using API.Shared.Model;
 using System.Collections.Generic;
 
 namespace API.Server.Data.Interface

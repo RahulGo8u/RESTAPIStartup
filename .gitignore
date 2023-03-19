@@ -11,3 +11,5 @@
 /API.Shared/obj
 /RESTAPIStartup/.vs/RESTAPIStartup
 /RESTAPIStartup/API.Server.csproj.user
+/API.Client.ConsoleApp/obj
+/API.Client.ConsoleApp/bin/Debug/net5.0

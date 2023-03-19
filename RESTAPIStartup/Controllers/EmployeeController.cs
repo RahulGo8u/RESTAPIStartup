@@ -1,6 +1,6 @@
 ﻿using API.Server.Data.Interface;
-using API.Server.Data.Model;
 using API.Server.Data.Repository;
+using API.Shared.Model;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 

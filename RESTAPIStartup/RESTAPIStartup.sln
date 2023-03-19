@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Shared", "..\API.Shared
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Server.Data", "..\API.Server.Data\API.Server.Data.csproj", "{159E2E31-45F1-464C-9136-C217A0EE642A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{EDA145B1-49F4-4985-B57D-7D21BAAD3E63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Client.ConsoleApp", "..\API.Client.ConsoleApp\API.Client.ConsoleApp.csproj", "{4526A127-A096-411A-9AD5-6921C7875290}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,16 @@ Global
 		{159E2E31-45F1-464C-9136-C217A0EE642A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{159E2E31-45F1-464C-9136-C217A0EE642A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{159E2E31-45F1-464C-9136-C217A0EE642A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4526A127-A096-411A-9AD5-6921C7875290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4526A127-A096-411A-9AD5-6921C7875290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4526A127-A096-411A-9AD5-6921C7875290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4526A127-A096-411A-9AD5-6921C7875290}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4526A127-A096-411A-9AD5-6921C7875290} = {EDA145B1-49F4-4985-B57D-7D21BAAD3E63}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BDCF993B-DB42-4573-81C7-26468015AE46}

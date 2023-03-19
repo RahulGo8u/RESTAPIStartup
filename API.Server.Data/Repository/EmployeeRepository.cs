@@ -1,5 +1,5 @@
 ﻿using API.Server.Data.Interface;
-using API.Server.Data.Model;
+using API.Shared.Model;
 using System.Collections.Generic;
 using System.Linq;
 
